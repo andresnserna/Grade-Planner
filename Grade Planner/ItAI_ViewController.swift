@@ -25,5 +25,25 @@ class ItAI_ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBOutlet weak var lbl_letterGrade: UILabel!
+    @IBOutlet weak var lbl_percentageGrade: UILabel!
+    
+    @IBOutlet weak var lbl_ethicsPaperPercent: UILabel!
+    @IBOutlet weak var lbl_unitAssignmentsPercent: UILabel!
+    @IBOutlet weak var lbl_classCodingPercent: UILabel!
+    @IBOutlet weak var lbl_examsPercent: UILabel!
+    @IBOutlet weak var lbl_attendancePercent: UILabel!
+    
+    @IBAction func sld_ethicsPaper(_ sender: UISlider) {
+    }
+    @IBAction func sld_unitAssignments(_ sender: UISlider) {
+    }
+    @IBAction func sld_classCoding(_ sender: UISlider) {
+    }
+    @IBAction func sld_exams(_ sender: UISlider) {
+    }
+    @IBAction func sld_attendance(_ sender: UISlider) {
+    }
 
 }

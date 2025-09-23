@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bfk-vq-qye">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -81,6 +81,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KkO-fs-jjR">
                                 <rect key="frame" x="39" y="678" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_projects:" destination="JHe-km-2Cy" eventType="valueChanged" id="PcB-5x-gsQ"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projects" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-Yc-wYQ">
                                 <rect key="frame" x="39" y="708" width="223" height="27"/>
@@ -92,6 +95,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="H1f-JN-PxJ">
                                 <rect key="frame" x="39" y="618" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_exams:" destination="JHe-km-2Cy" eventType="valueChanged" id="07s-Zs-8Bw"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exams" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hD-O3-UvO">
                                 <rect key="frame" x="39" y="648" width="223" height="27"/>
@@ -103,6 +109,10 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GTZ-Jp-UdL">
                                 <rect key="frame" x="39" y="553" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_homework:" destination="JHe-km-2Cy" eventType="valueChanged" id="xSv-QI-Uff"/>
+                                    <action selector="sld_homeworks:" destination="JHe-km-2Cy" eventType="valueChanged" id="X4H-oj-G19"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Homeworks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D58-C1-Jbl">
                                 <rect key="frame" x="39" y="583" width="223" height="27"/>
@@ -114,6 +124,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="f3s-IG-Lf9">
                                 <rect key="frame" x="39" y="488" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_attendance:" destination="JHe-km-2Cy" eventType="valueChanged" id="WZg-Qm-zJF"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Attendance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkt-FT-2LK">
                                 <rect key="frame" x="39" y="518" width="223" height="27"/>
@@ -125,6 +138,10 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UYO-EW-YXS">
                                 <rect key="frame" x="39" y="423" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_readingQuizes:" destination="JHe-km-2Cy" eventType="valueChanged" id="RoM-4I-Mti"/>
+                                    <action selector="sld_readingQuizzes:" destination="JHe-km-2Cy" eventType="valueChanged" id="7AS-zj-Y34"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reading Quizzes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXI-no-tdd">
                                 <rect key="frame" x="39" y="453" width="223" height="27"/>
@@ -173,7 +190,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Data Mining" image="mail.and.text.magnifyingglass.rtl" catalog="system" id="1e3-RW-CNN"/>
                     <connections>
-                        <outlet property="lbl_letterGrade" destination="08m-Lw-KeL" id="wiN-wz-tcN"/>
+                        <outlet property="lbl_attendance" destination="6Gg-zv-eGD" id="4pn-aa-bib"/>
+                        <outlet property="lbl_exams" destination="DXE-ip-Ikt" id="Yvp-qo-P9x"/>
+                        <outlet property="lbl_homeworks" destination="Bzz-AM-l7k" id="6yt-su-IIr"/>
+                        <outlet property="lbl_letterGrade" destination="08m-Lw-KeL" id="2kd-wT-PFh"/>
+                        <outlet property="lbl_percentageGrade" destination="zbO-LW-Fwc" id="F0C-jv-F01"/>
+                        <outlet property="lbl_projects" destination="NUE-Le-uQi" id="b8v-jZ-ivr"/>
+                        <outlet property="lbl_readingQuizes" destination="vHm-y1-dPw" id="fmw-Pp-YLu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZ4-Pz-K9W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -233,6 +256,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jBc-1s-Is6">
                                 <rect key="frame" x="39" y="678" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_attendance:" destination="SNH-wX-Fje" eventType="valueChanged" id="mjv-Sx-e6n"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Attendance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qq6-hT-Pjb">
                                 <rect key="frame" x="39" y="708" width="223" height="27"/>
@@ -244,6 +270,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="fmw-VH-jSZ">
                                 <rect key="frame" x="39" y="618" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_exams:" destination="SNH-wX-Fje" eventType="valueChanged" id="H1Q-wq-Vxg"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exams" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e00-DR-9Kb">
                                 <rect key="frame" x="39" y="648" width="223" height="27"/>
@@ -255,6 +284,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="cF7-3s-anB">
                                 <rect key="frame" x="39" y="553" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_classCoding:" destination="SNH-wX-Fje" eventType="valueChanged" id="fT4-pS-471"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class Coding" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rEq-5f-O3y">
                                 <rect key="frame" x="39" y="583" width="223" height="27"/>
@@ -266,6 +298,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zB7-sb-GFU">
                                 <rect key="frame" x="39" y="488" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_unitAssignments:" destination="SNH-wX-Fje" eventType="valueChanged" id="XYG-lU-EM5"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Unit Assignments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHi-Vv-rzc">
                                 <rect key="frame" x="39" y="518" width="223" height="27"/>
@@ -277,6 +312,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="2fz-hT-8g2">
                                 <rect key="frame" x="39" y="423" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_ethicsPaper:" destination="SNH-wX-Fje" eventType="valueChanged" id="JoX-b7-7If"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ethics Paper" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lQ-5V-uYW">
                                 <rect key="frame" x="39" y="453" width="223" height="27"/>
@@ -324,6 +362,15 @@
                         <viewLayoutGuide key="safeArea" id="6Mc-R7-DRR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Intro to AI" image="brain.head.profile.fill" catalog="system" id="cq4-nw-Dx0"/>
+                    <connections>
+                        <outlet property="lbl_attendancePercent" destination="5EL-N5-Kds" id="Jcj-AZ-hze"/>
+                        <outlet property="lbl_classCodingPercent" destination="RK5-Yk-sz9" id="V3h-6z-gmn"/>
+                        <outlet property="lbl_ethicsPaperPercent" destination="Lqi-ey-lAE" id="Rsh-wX-g4f"/>
+                        <outlet property="lbl_examsPercent" destination="yJc-pl-XK9" id="kg5-9d-i57"/>
+                        <outlet property="lbl_letterGrade" destination="nYV-Y4-4hc" id="c8n-Zv-9ge"/>
+                        <outlet property="lbl_percentageGrade" destination="hmU-Oc-XqC" id="yDI-EB-Lqp"/>
+                        <outlet property="lbl_unitAssignmentsPercent" destination="JGI-dy-qFX" id="h6a-Ix-u5E"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mfu-ev-fNp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -382,6 +429,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hji-e2-dpQ">
                                 <rect key="frame" x="39" y="678" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_participation:" destination="OJf-zN-a8B" eventType="valueChanged" id="Itp-n8-1Fx"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Participation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k8W-u0-oAc">
                                 <rect key="frame" x="39" y="708" width="223" height="27"/>
@@ -393,6 +443,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aDL-fj-aRX">
                                 <rect key="frame" x="39" y="618" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_quizzes:" destination="OJf-zN-a8B" eventType="valueChanged" id="Mmw-nf-Hi8"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quizzes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pp8-oE-UOj">
                                 <rect key="frame" x="39" y="648" width="223" height="27"/>
@@ -404,6 +457,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="34T-cC-dvU">
                                 <rect key="frame" x="39" y="553" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_challenges:" destination="OJf-zN-a8B" eventType="valueChanged" id="VzO-IF-Zb4"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Challenges" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OY2-wI-Yni">
                                 <rect key="frame" x="39" y="583" width="223" height="27"/>
@@ -415,6 +471,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="4tl-Fz-3hC">
                                 <rect key="frame" x="39" y="488" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_finalExam:" destination="OJf-zN-a8B" eventType="valueChanged" id="hZm-yE-71k"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Final Exam / Programming" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgy-SJ-KZY">
                                 <rect key="frame" x="39" y="518" width="223" height="27"/>
@@ -426,6 +485,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vJz-Jq-9Xa">
                                 <rect key="frame" x="39" y="423" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_midtermExam:" destination="OJf-zN-a8B" eventType="valueChanged" id="tYK-Yk-OfE"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Midterm Exam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgi-EI-NVz">
                                 <rect key="frame" x="39" y="453" width="223" height="27"/>
@@ -473,6 +535,15 @@
                         <viewLayoutGuide key="safeArea" id="Kqn-2U-ua0"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Data Structures" image="apple.terminal.fill" catalog="system" id="9VX-fv-B84"/>
+                    <connections>
+                        <outlet property="lbl_challengesPercent" destination="JUm-S7-QZu" id="13C-tr-VQ0"/>
+                        <outlet property="lbl_finalExamPercent" destination="1zW-wL-cpd" id="zzT-ft-ZIE"/>
+                        <outlet property="lbl_letterGrade" destination="vBJ-cH-bSq" id="Wie-iE-6ID"/>
+                        <outlet property="lbl_midtermExamPercent" destination="Tjc-tv-Eyx" id="fzG-l0-WD7"/>
+                        <outlet property="lbl_participationPercent" destination="iQc-8X-9gX" id="sfs-Vf-lnA"/>
+                        <outlet property="lbl_percentageGrade" destination="QLJ-fv-pR0" id="TxJ-Ld-Z7Z"/>
+                        <outlet property="lbl_quizzesPercent" destination="Ebl-QP-Nrj" id="6NM-1v-eif"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYJ-cU-v8k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -531,6 +602,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DJB-Uh-sB0">
                                 <rect key="frame" x="39" y="677" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_absences:" destination="x5e-5X-RiI" eventType="valueChanged" id="Zgl-xa-u3r"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Absences" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUi-OK-FWY">
                                 <rect key="frame" x="39" y="708" width="181" height="27"/>
@@ -542,6 +616,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Kmb-du-jaC">
                                 <rect key="frame" x="39" y="612" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_attendance:" destination="x5e-5X-RiI" eventType="valueChanged" id="loI-z8-NTI"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Attendance / Participation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAH-TI-uJc">
                                 <rect key="frame" x="39" y="642" width="223" height="27"/>
@@ -553,6 +630,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5xg-0b-FYS">
                                 <rect key="frame" x="39" y="552" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_finalProjPresi:" destination="x5e-5X-RiI" eventType="valueChanged" id="1mI-HO-uIz"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Final Project Presentation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0iN-N9-dir">
                                 <rect key="frame" x="39" y="582" width="223" height="27"/>
@@ -564,6 +644,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Mbb-tP-EK8">
                                 <rect key="frame" x="39" y="487" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_finalProjImpl:" destination="x5e-5X-RiI" eventType="valueChanged" id="4DS-fE-fR5"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Final Project Implementation" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vw7-nc-2Pd">
                                 <rect key="frame" x="39" y="517" width="223" height="27"/>
@@ -575,6 +658,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6cb-G9-8Q0">
                                 <rect key="frame" x="39" y="422" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_finalProjPrototype:" destination="x5e-5X-RiI" eventType="valueChanged" id="fXY-0e-Bfe"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Final Project Prototype" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUK-Hf-6Zy">
                                 <rect key="frame" x="39" y="452" width="223" height="27"/>
@@ -586,6 +672,9 @@
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9Bh-yI-bVY">
                                 <rect key="frame" x="39" y="358" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sld_homeworkAssignments:" destination="x5e-5X-RiI" eventType="valueChanged" id="IhZ-2a-SY3"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Homework Assignments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzk-St-7Gi">
                                 <rect key="frame" x="39" y="388" width="223" height="27"/>
@@ -642,11 +731,24 @@
                                 <color key="tintColor" systemColor="separatorColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system"/>
+                                <connections>
+                                    <action selector="btn_absencesInfo:" destination="x5e-5X-RiI" eventType="touchUpInside" id="RNt-wj-qZV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="diI-ej-asd"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mobile Prog." image="swift" catalog="system" id="uaU-1a-B3g"/>
+                    <connections>
+                        <outlet property="lbl_absencesPercent" destination="SCX-DE-YMr" id="8ym-FB-psF"/>
+                        <outlet property="lbl_attendancePercent" destination="JQB-w9-jzs" id="UA0-KJ-MfK"/>
+                        <outlet property="lbl_finalProjImplPercent" destination="iKN-YS-dXQ" id="8F3-z5-z29"/>
+                        <outlet property="lbl_finalProjPresiPercent" destination="7Zo-NX-ULC" id="7q4-BL-BlA"/>
+                        <outlet property="lbl_finalProjPrototypePercent" destination="V4P-Fa-IVj" id="ORc-Oh-CoO"/>
+                        <outlet property="lbl_homeworkAssignmentsPercent" destination="CNl-zc-S2q" id="h4e-Px-YAL"/>
+                        <outlet property="lbl_letterGrade" destination="Q2V-pG-WtE" id="Ah0-vf-Loi"/>
+                        <outlet property="lbl_percentageGrade" destination="PRs-Cf-n0l" id="H9T-bH-efh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="769-sC-Zbf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

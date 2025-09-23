@@ -25,5 +25,24 @@ class ADS_ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBOutlet weak var lbl_letterGrade: UILabel!
+    @IBOutlet weak var lbl_percentageGrade: UILabel!
+    
+    @IBOutlet weak var lbl_midtermExamPercent: UILabel!
+    @IBOutlet weak var lbl_finalExamPercent: UILabel!
+    @IBOutlet weak var lbl_challengesPercent: UILabel!
+    @IBOutlet weak var lbl_quizzesPercent: UILabel!
+    @IBOutlet weak var lbl_participationPercent: UILabel!
+    
+    @IBAction func sld_midtermExam(_ sender: UISlider) {
+    }
+    @IBAction func sld_finalExam(_ sender: UISlider) {
+    }
+    @IBAction func sld_challenges(_ sender: UISlider) {
+    }
+    @IBAction func sld_quizzes(_ sender: UISlider) {
+    }
+    @IBAction func sld_participation(_ sender: UISlider) {
+    }
 
 }
