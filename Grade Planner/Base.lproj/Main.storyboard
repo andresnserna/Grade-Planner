@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Bfk-vq-qye">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -57,20 +57,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(-%)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbO-LW-Fwc">
-                                <rect key="frame" x="237" y="237" width="100" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
-                                <color key="textColor" systemColor="secondaryLabelColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08m-Lw-KeL">
-                                <rect key="frame" x="197" y="228" width="79" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="64"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grading Distribution" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J3B-jN-6qc">
                                 <rect key="frame" x="39" y="388" width="181" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -78,7 +64,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="KkO-fs-jjR">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="KkO-fs-jjR">
                                 <rect key="frame" x="39" y="678" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -92,7 +78,7 @@
                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="H1f-JN-PxJ">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="H1f-JN-PxJ">
                                 <rect key="frame" x="39" y="618" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -106,11 +92,10 @@
                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GTZ-Jp-UdL">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="20" minValue="0.0" maxValue="20" translatesAutoresizingMaskIntoConstraints="NO" id="GTZ-Jp-UdL">
                                 <rect key="frame" x="39" y="553" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="sld_homework:" destination="JHe-km-2Cy" eventType="valueChanged" id="xSv-QI-Uff"/>
                                     <action selector="sld_homeworks:" destination="JHe-km-2Cy" eventType="valueChanged" id="X4H-oj-G19"/>
                                 </connections>
                             </slider>
@@ -121,7 +106,7 @@
                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="f3s-IG-Lf9">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="f3s-IG-Lf9">
                                 <rect key="frame" x="39" y="488" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -135,12 +120,11 @@
                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UYO-EW-YXS">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="UYO-EW-YXS">
                                 <rect key="frame" x="39" y="423" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sld_readingQuizes:" destination="JHe-km-2Cy" eventType="valueChanged" id="RoM-4I-Mti"/>
-                                    <action selector="sld_readingQuizzes:" destination="JHe-km-2Cy" eventType="valueChanged" id="7AS-zj-Y34"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reading Quizzes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXI-no-tdd">
@@ -185,6 +169,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCI-eo-jx1">
+                                <rect key="frame" x="197" y="240" width="79" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(-%)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qh-H8-emX">
+                                <rect key="frame" x="253" y="244" width="100" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <color key="textColor" systemColor="secondaryLabelColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4Z7-lX-iaS"/>
                     </view>
@@ -193,10 +191,15 @@
                         <outlet property="lbl_attendance" destination="6Gg-zv-eGD" id="4pn-aa-bib"/>
                         <outlet property="lbl_exams" destination="DXE-ip-Ikt" id="Yvp-qo-P9x"/>
                         <outlet property="lbl_homeworks" destination="Bzz-AM-l7k" id="6yt-su-IIr"/>
-                        <outlet property="lbl_letterGrade" destination="08m-Lw-KeL" id="2kd-wT-PFh"/>
-                        <outlet property="lbl_percentageGrade" destination="zbO-LW-Fwc" id="F0C-jv-F01"/>
+                        <outlet property="lbl_letterGrade" destination="ZCI-eo-jx1" id="v7b-Ei-Npc"/>
+                        <outlet property="lbl_percentageGrade" destination="2qh-H8-emX" id="Zjh-fn-F6u"/>
                         <outlet property="lbl_projects" destination="NUE-Le-uQi" id="b8v-jZ-ivr"/>
                         <outlet property="lbl_readingQuizes" destination="vHm-y1-dPw" id="fmw-Pp-YLu"/>
+                        <outlet property="sld_attendance" destination="f3s-IG-Lf9" id="Erm-u2-7hR"/>
+                        <outlet property="sld_exams" destination="H1f-JN-PxJ" id="Wao-Bm-cGt"/>
+                        <outlet property="sld_homeworks" destination="GTZ-Jp-UdL" id="hh6-iR-911"/>
+                        <outlet property="sld_projects" destination="KkO-fs-jjR" id="9Zg-nK-DjP"/>
+                        <outlet property="sld_readingQuizzes" destination="KkO-fs-jjR" id="lau-Nl-1rJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZ4-Pz-K9W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

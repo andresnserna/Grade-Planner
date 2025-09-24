@@ -94,6 +94,10 @@ class MP_ViewController: UIViewController {
         if intValue != lastIntValue {
             selectionFeedbackGenerator.selectionChanged()
             selectionFeedbackGenerator.prepare()
+            
+            //simulate taptic engine, since the simulator doesn't support it
+            print("tick!")
+            
             // update dictionary
             lastIntValues[slider] = intValue
         }
