@@ -83,7 +83,6 @@ class MP_ViewController: UIViewController {
     
     //MARK: Helper Functions
     
-    // Centralised handler for slider changes
     private func handleSliderChange(_ slider: UISlider) {
         let intValue = Int(slider.value.rounded())
         // visually snap the slider to this value
