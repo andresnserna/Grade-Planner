@@ -77,10 +77,6 @@ class MP_ViewController: UIViewController {
         lbl_absencesPercent.text = "-\(penalty)%"
     }
     
-    
-    @IBAction func btn_absencesInfo(_ sender: Any) {
-    }
-    
     //MARK: Helper Functions
     
     private func handleSliderChange(_ slider: UISlider) {

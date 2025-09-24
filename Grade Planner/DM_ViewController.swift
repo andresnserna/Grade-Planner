@@ -27,7 +27,7 @@ class DM_ViewController: UIViewController {
     @IBOutlet weak var lbl_letterGrade: UILabel!
     @IBOutlet weak var lbl_percentageGrade: UILabel!
     
-    @IBOutlet weak var lbl_readingQuizes: UILabel!
+    @IBOutlet weak var lbl_readingQuizzes: UILabel!
     @IBOutlet weak var lbl_attendance: UILabel!
     @IBOutlet weak var lbl_homeworks: UILabel!
     @IBOutlet weak var lbl_exams: UILabel!
@@ -42,9 +42,9 @@ class DM_ViewController: UIViewController {
     
     //MARK: Actions
     
-    @IBAction func sld_readingQuizes(_ sender: UISlider) {
+    @IBAction func sld_readingQuizzes(_ sender: UISlider) {
         handleSliderChange(sender)
-        lbl_readingQuizes.text = "\(Int(sender.value))%"
+        lbl_readingQuizzes.text = "\(Int(sender.value))%"
     }
     
     @IBAction func sld_attendance(_ sender: UISlider) {
@@ -93,7 +93,7 @@ class DM_ViewController: UIViewController {
     }
     
     private func setSliderValues(){
-        lbl_readingQuizes.text = "10%"
+        lbl_readingQuizzes.text = "10%"
         lbl_attendance.text = "10%"
         lbl_homeworks.text = "20%"
         lbl_exams.text = "30%"

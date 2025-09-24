@@ -41,6 +41,7 @@ class ADS_ViewController: UIViewController {
     @IBOutlet weak var sld_participation: UISlider!
     
     // MARK: Actions
+    
     @IBAction func sld_midtermExam(_ sender: UISlider) {
         handleSliderChange(sender)
         lbl_midtermExamPercent.text = "\(Int(sender.value))%"
@@ -121,11 +122,11 @@ class ADS_ViewController: UIViewController {
     
     private func calculatePercentageGrade() -> Float {
         let sliders: [UISlider] = [
-                sld_midtermExam,
-                sld_finalExam,
-                sld_challenges,
-                sld_quizzes,
-                sld_participation
+            sld_midtermExam,
+            sld_finalExam,
+            sld_challenges,
+            sld_quizzes,
+            sld_participation
         ]
 
         // sum as Float

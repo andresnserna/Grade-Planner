@@ -68,7 +68,7 @@
                                 <rect key="frame" x="39" y="678" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="sld_projects:" destination="JHe-km-2Cy" eventType="valueChanged" id="PcB-5x-gsQ"/>
+                                    <action selector="sld_projects:" destination="JHe-km-2Cy" eventType="valueChanged" id="MHB-aJ-m7e"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projects" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sAP-Yc-wYQ">
@@ -124,7 +124,7 @@
                                 <rect key="frame" x="39" y="423" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="sld_readingQuizes:" destination="JHe-km-2Cy" eventType="valueChanged" id="RoM-4I-Mti"/>
+                                    <action selector="sld_readingQuizzes:" destination="JHe-km-2Cy" eventType="valueChanged" id="Xn8-WW-E3f"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reading Quizzes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXI-no-tdd">
@@ -194,12 +194,12 @@
                         <outlet property="lbl_letterGrade" destination="ZCI-eo-jx1" id="v7b-Ei-Npc"/>
                         <outlet property="lbl_percentageGrade" destination="2qh-H8-emX" id="Zjh-fn-F6u"/>
                         <outlet property="lbl_projects" destination="NUE-Le-uQi" id="b8v-jZ-ivr"/>
-                        <outlet property="lbl_readingQuizes" destination="vHm-y1-dPw" id="fmw-Pp-YLu"/>
+                        <outlet property="lbl_readingQuizzes" destination="vHm-y1-dPw" id="OZR-z4-8Cz"/>
                         <outlet property="sld_attendance" destination="f3s-IG-Lf9" id="Erm-u2-7hR"/>
                         <outlet property="sld_exams" destination="H1f-JN-PxJ" id="Wao-Bm-cGt"/>
                         <outlet property="sld_homeworks" destination="GTZ-Jp-UdL" id="hh6-iR-911"/>
                         <outlet property="sld_projects" destination="KkO-fs-jjR" id="9Zg-nK-DjP"/>
-                        <outlet property="sld_readingQuizzes" destination="KkO-fs-jjR" id="lau-Nl-1rJ"/>
+                        <outlet property="sld_readingQuizzes" destination="UYO-EW-YXS" id="WJ1-XP-gmd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZ4-Pz-K9W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -731,16 +731,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GT4-KE-95a">
-                                <rect key="frame" x="234" y="708" width="28" height="23"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="separatorColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system"/>
-                                <connections>
-                                    <action selector="btn_absencesInfo:" destination="x5e-5X-RiI" eventType="touchUpInside" id="B5t-pM-vYb"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(-%)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRs-Cf-n0l">
                                 <rect key="frame" x="253" y="232" width="100" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -777,14 +767,10 @@
     <resources>
         <image name="apple.terminal.fill" catalog="system" width="128" height="93"/>
         <image name="brain.head.profile.fill" catalog="system" width="120" height="128"/>
-        <image name="info.circle" catalog="system" width="128" height="123"/>
         <image name="mail.and.text.magnifyingglass.rtl" catalog="system" width="128" height="90"/>
         <image name="swift" catalog="system" width="128" height="108"/>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="separatorColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
